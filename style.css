@@ -1,11 +1,11 @@
 .css-selector {
-  background: linear-gradient(47deg, #329d00, #6c6c6c, #017000, #b3f5b2);
+  background: linear-gradient(45deg, #aeaeae, #f8f9ff, #727272, #3a3a3a);
   background-size: 800% 800%;
 
-  -webkit-animation: AnimationName 36s ease infinite;
-  -moz-animation: AnimationName 36s ease infinite;
-  -o-animation: AnimationName 36s ease infinite;
-  animation: AnimationName 36s ease infinite;
+  -webkit-animation: AnimationName 32s ease infinite;
+  -moz-animation: AnimationName 32s ease infinite;
+  -o-animation: AnimationName 32s ease infinite;
+  animation: AnimationName 32s ease infinite;
 }
 
 @-webkit-keyframes AnimationName {
@@ -30,34 +30,34 @@
 }
 
 .card-selector {
-  background: linear-gradient(269deg, #fcfdea, #565656);
-  background-size: 400% 400%;
+  background: linear-gradient(211deg, #aeaeae, #f8f9ff, #727272, #3a3a3a);
+  background-size: 800% 800%;
 
-  -webkit-animation: AnimationName 4s ease infinite;
-  -moz-animation: AnimationName 4s ease infinite;
-  -o-animation: AnimationName 4s ease infinite;
-  animation: AnimationName 4s ease infinite;
+  -webkit-animation: AnimationName 32s ease infinite;
+  -moz-animation: AnimationName 32s ease infinite;
+  -o-animation: AnimationName 32s ease infinite;
+  animation: AnimationName 32s ease infinite;
 }
 
 @-webkit-keyframes AnimationName {
-  0%{background-position:0% 50%}
-  50%{background-position:100% 51%}
-  100%{background-position:0% 50%}
+  0%{background-position:96% 0%}
+  50%{background-position:5% 100%}
+  100%{background-position:96% 0%}
 }
 @-moz-keyframes AnimationName {
-  0%{background-position:0% 50%}
-  50%{background-position:100% 51%}
-  100%{background-position:0% 50%}
+  0%{background-position:96% 0%}
+  50%{background-position:5% 100%}
+  100%{background-position:96% 0%}
 }
 @-o-keyframes AnimationName {
-  0%{background-position:0% 50%}
-  50%{background-position:100% 51%}
-  100%{background-position:0% 50%}
+  0%{background-position:96% 0%}
+  50%{background-position:5% 100%}
+  100%{background-position:96% 0%}
 }
 @keyframes AnimationName {
-  0%{background-position:0% 50%}
-  50%{background-position:100% 51%}
-  100%{background-position:0% 50%}
+  0%{background-position:96% 0%}
+  50%{background-position:5% 100%}
+  100%{background-position:96% 0%}
 }
 
 
@@ -172,7 +172,7 @@
 }
 .crismas{
   font-family: 'Mountains of Christmas';
-  font-size: 30px;
+  font-size: 50px;
   font-weight: bold;
   background: #FF9C9C;
 background: repeating-radial-gradient(ellipse farthest-side at center center, #FF9C9C 47%, #CF1512 49%);
@@ -197,6 +197,18 @@ background: repeating-radial-gradient(ellipse farthest-side at center center, #F
 .MatrixTextEffect {
   color: rgba(125,225,125,0.75);
   font-family: 'VT323', monospace;
-  font-size: 25px;
+  font-size: 40px;
   text-shadow: 0 0 5px rgba(125,225,125,0.5), 0 0 15px rgba(125,250,125,1);
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(70, 70, 70);
+}
+
+h1{
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(255, 255, 255);
+}
+
+borderit{
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(255, 255, 255);
 }
