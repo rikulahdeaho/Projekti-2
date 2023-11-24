@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Joke API Example</title>
+  <title>Joke Generator</title>
   
   <!-- Add Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
@@ -17,31 +17,29 @@
 </head>
 <body class="css-selector">
   <div class="container mt-5">
-    <h1 class="text-center mb-4 display-1"><strong>Select a category</strong></h1>
+    <h2 class="text-center mb-4 display-1" style="padding-bottom: 70px;"><strong>Joke Generator</strong></h2>
+    <h1 class="text-center mb-4 display-3">Select a category</h1>
     
     <!-- Bootstrap form group for better styling -->
-    <div class="form-group">
-      <!-- Bootstrap form-check class for styling checkboxes -->
-      <div class="text-center form-check">
-          <div class="MatrixTextEffect">
+    <div style="display: flex; justify-content: space-evenly;">
+      <div class="MatrixTextEffect">
         <input type="checkbox" class="form-check-input" id="programmingCheckbox" value="Programming">
-        <label class="form-check-label" for="programmingCheckbox"></label>
+        <label class="form-check-label" for="programmingCheckbox" style="margin-left: 25px;"></label>
         <p class="Pulse">Programming</p>
-          </div>
       </div>
-      <div class="text-center form-check">
-          <div class="">
+
+      <div>
         <input type="checkbox" class="form-check-input" id="christmasCheckbox" value="Christmas">
         <label class="form-check-label" for="christmasCheckbox"></label>
-        <P class="crismas">christmas</P>
-          </div>
+        <p class="crismas">Christmas</p>
       </div>
     </div>
 
     <!-- Bootstrap button classes for styling -->
-    <div class="text-center">
-    <button id="getJokeBtn" class="btn btn-primary">Get Joke</button>
+    <div class="text-center" style="padding: 30px;">
+      <button id="getJokeBtn">Get Joke</button>
     </div>
+    
     <!-- Bootstrap card for better styling -->
     <div class="card card-selector ">
       <div class="card-body">

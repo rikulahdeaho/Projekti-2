@@ -1,11 +1,11 @@
 .css-selector {
-  background: linear-gradient(45deg, #aeaeae, #f8f9ff, #727272, #3a3a3a);
+  background: linear-gradient(47deg, #329d00, #6c6c6c, #017000, #b3f5b2);
   background-size: 800% 800%;
 
-  -webkit-animation: AnimationName 32s ease infinite;
-  -moz-animation: AnimationName 32s ease infinite;
-  -o-animation: AnimationName 32s ease infinite;
-  animation: AnimationName 32s ease infinite;
+  -webkit-animation: AnimationName 36s ease infinite;
+  -moz-animation: AnimationName 36s ease infinite;
+  -o-animation: AnimationName 36s ease infinite;
+  animation: AnimationName 36s ease infinite;
 }
 
 @-webkit-keyframes AnimationName {
@@ -30,39 +30,84 @@
 }
 
 .card-selector {
-  background: linear-gradient(211deg, #aeaeae, #f8f9ff, #727272, #3a3a3a);
-  background-size: 800% 800%;
+  background: linear-gradient(269deg, #fcfdea, #b5b1b1);
+  background-size: 400% 400%;
 
-  -webkit-animation: AnimationName 32s ease infinite;
-  -moz-animation: AnimationName 32s ease infinite;
-  -o-animation: AnimationName 32s ease infinite;
-  animation: AnimationName 32s ease infinite;
+  -webkit-animation: AnimationName 4s ease infinite;
+  -moz-animation: AnimationName 4s ease infinite;
+  -o-animation: AnimationName 4s ease infinite;
+  animation: AnimationName 4s ease infinite;
 }
 
 @-webkit-keyframes AnimationName {
-  0%{background-position:96% 0%}
-  50%{background-position:5% 100%}
-  100%{background-position:96% 0%}
+  0%{background-position:0% 50%}
+  50%{background-position:100% 51%}
+  100%{background-position:0% 50%}
 }
 @-moz-keyframes AnimationName {
-  0%{background-position:96% 0%}
-  50%{background-position:5% 100%}
-  100%{background-position:96% 0%}
+  0%{background-position:0% 50%}
+  50%{background-position:100% 51%}
+  100%{background-position:0% 50%}
 }
 @-o-keyframes AnimationName {
-  0%{background-position:96% 0%}
-  50%{background-position:5% 100%}
-  100%{background-position:96% 0%}
+  0%{background-position:0% 50%}
+  50%{background-position:100% 51%}
+  100%{background-position:0% 50%}
 }
 @keyframes AnimationName {
-  0%{background-position:96% 0%}
-  50%{background-position:5% 100%}
-  100%{background-position:96% 0%}
+  0%{background-position:0% 50%}
+  50%{background-position:100% 51%}
+  100%{background-position:0% 50%}
 }
 
 
 
 @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+#getJokeBtn:hover {
+  width: 300px;
+  border-radius: 25px;
+  box-shadow: 0px 0px 18px 8px rgb(255, 255, 255);
+  background: #d51da1;
+}
+
+#getJokeBtn {
+  position: relative;
+  background-color: #04AA6D;
+  border: none;
+  border-radius: 2px;
+  font-size: 28px;
+  color: #FFFFFF;
+  padding: 20px;
+  text-align: center;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+  width: 250px;
+}
+
+#getJokeBtn:after {
+  content: "";
+  background: #ccd51d;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px!important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s
+}
+
+#getJokeBtn:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s
+}
+
 
 /* Add styles for checkboxes */
 .form-check-input {
@@ -172,20 +217,28 @@
 }
 .crismas{
   font-family: 'Mountains of Christmas';
-  font-size: 50px;
+  font-size: 30px;
   font-weight: bold;
   background: #FF9C9C;
-background: repeating-radial-gradient(ellipse farthest-side at center center, #FF9C9C 47%, #CF1512 49%);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+  background: repeating-radial-gradient(ellipse farthest-side at center center, #FF9C9C 47%, #CF1512 49%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
+
 .proogram{
   font-family: 'Mountains of Christmas'
 }
 
-
 .Pulse {
   animation: Pulse 1.5s ease infinite;
+}
+
+#jokeSetup {
+  font-size: 35px;
+}
+
+#jokeDelivery {
+  font-size: 28px;
 }
 
 @keyframes Pulse {
@@ -197,18 +250,6 @@ background: repeating-radial-gradient(ellipse farthest-side at center center, #F
 .MatrixTextEffect {
   color: rgba(125,225,125,0.75);
   font-family: 'VT323', monospace;
-  font-size: 40px;
+  font-size: 25px;
   text-shadow: 0 0 5px rgba(125,225,125,0.5), 0 0 15px rgba(125,250,125,1);
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: rgb(70, 70, 70);
-}
-
-h1{
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: rgb(255, 255, 255);
-}
-
-borderit{
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: rgb(255, 255, 255);
 }
