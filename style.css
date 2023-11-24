@@ -1,5 +1,5 @@
  body{
-    background-image: url('BGimage.gif');
+    background-image: url('BGimage2.gif');
     background-size: cover;
     
     
@@ -19,7 +19,7 @@
 
 /* Style for unchecked state */
 .form-check-label {
-  --size: 50px; /* Adjust the size as needed */
+  --size: 100px; /* Adjust the size as needed */
   --shadow: calc(var(--size) * 0.07) calc(var(--size) * 0.1);
 
   position:relative;

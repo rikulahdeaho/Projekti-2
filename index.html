@@ -17,20 +17,19 @@
 </head>
 <body class="">
   <div class="container mt-5">
-    <h1 class="text-center mb-4">Joke API</h1>
+    <h1 class="text-center mb-4">Select a category</h1>
     
     <!-- Bootstrap form group for better styling -->
     <div class="form-group">
-      <label>Select Joke Categories:</label>
       <!-- Bootstrap form-check class for styling checkboxes -->
-      <div class="form-check">
+      <div class="text-center form-check">
           <div class="MatrixTextEffect">
         <input type="checkbox" class="form-check-input" id="programmingCheckbox" value="Programming">
         <label class="form-check-label" for="programmingCheckbox"></label>
         <p class="Pulse">Programming...</p>
           </div>
       </div>
-      <div class="form-check">
+      <div class="text-center form-check">
           <div class="">
         <input type="checkbox" class="form-check-input" id="christmasCheckbox" value="Christmas">
         <label class="form-check-label" for="christmasCheckbox"></label>
@@ -40,13 +39,14 @@
     </div>
 
     <!-- Bootstrap button classes for styling -->
+    <div class="text-center">
     <button id="getJokeBtn" class="btn btn-primary">Get Joke</button>
-
+    </div>
     <!-- Bootstrap card for better styling -->
-    <div class="card mt-4">
+    <div class="card text-white bg-dark ">
       <div class="card-body">
-        <h5 class="card-title" id="jokeSetup"></h5>
-        <p class="card-text" id="jokeDelivery"></p>
+        <h5 class="card-title text-center" id="jokeSetup"></h5>
+        <p class="card-text text-center" id="jokeDelivery"></p>
       </div>
     </div>
   </div>
