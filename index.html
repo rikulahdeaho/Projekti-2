@@ -13,12 +13,16 @@
     
     <!-- Bootstrap form group for better styling -->
     <div class="form-group">
-      <label for="jokeCategory">Select Joke Category:</label>
-      <!-- Bootstrap form-control class for styling -->
-      <select id="jokeCategory" class="form-control">
-        <option value="Programming">Programming</option>
-        <option value="Christmas">Christmas</option>
-      </select>
+      <label>Select Joke Categories:</label>
+      <!-- Bootstrap form-check class for styling checkboxes -->
+      <div class="form-check">
+        <input type="checkbox" class="form-check-input" id="programmingCheckbox" value="Programming">
+        <label class="form-check-label" for="programmingCheckbox">Programming</label>
+      </div>
+      <div class="form-check">
+        <input type="checkbox" class="form-check-input" id="christmasCheckbox" value="Christmas">
+        <label class="form-check-label" for="christmasCheckbox">Christmas</label>
+      </div>
     </div>
 
     <!-- Bootstrap button classes for styling -->
