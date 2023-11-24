@@ -1,3 +1,15 @@
+ body{
+    background-image: url('BGimage.gif');
+    background-size: cover;
+    
+    
+    
+    height: 100vh;
+    padding:0;
+    margin:0;
+}
+
+
 @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 
 /* Add styles for checkboxes */
@@ -109,6 +121,7 @@
 .crismas{
   font-family: 'Mountains of Christmas';
   font-size: 30px;
+  font-weight: bold;
   background: #FF9C9C;
 background: repeating-radial-gradient(ellipse farthest-side at center center, #FF9C9C 47%, #CF1512 49%);
 -webkit-background-clip: text;
