@@ -1,13 +1,16 @@
 const getJokeBtn = document.getElementById('getJokeBtn');
 const jokeSetup = document.getElementById('jokeSetup');
 const jokeDelivery = document.getElementById('jokeDelivery');
+const jokeCategorySelect = document.getElementById('jokeCategory');
 
 getJokeBtn.addEventListener('click', () => {
-  fetch('https://v2.jokeapi.dev/joke/Programming?blacklistFlags=nsfw,religious,political,racist,sexist,explicit&type=twopart')
+  const selectedCategory = jokeCategorySelect.value;
+
+  fetch(`https://v2.jokeapi.dev/joke/${selectedCategory}?blacklistFlags=nsfw,racist,sexist&type=twopart`)
     .then(response => response.json())
     .then(data => {
       if (data.error) {
-        jokeSetup.textContent = 'Failed to fetch joke. Please try again.';
+        jokeSetup.textContent = `Failed to fetch ${selectedCategory} joke. Please try again.`;
         jokeDelivery.textContent = '';
       } else {
         jokeSetup.textContent = data.setup;
