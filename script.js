@@ -6,7 +6,7 @@ getJokeBtn.addEventListener('click', () => {
   const programmingCheckbox = document.getElementById('programmingCheckbox');
   const christmasCheckbox = document.getElementById('christmasCheckbox');
 
-  // Build the categories based on selected checkboxes
+  // Katsotaan valitut kategoriat
   const selectedCategories = [];
   if (programmingCheckbox.checked) {
     selectedCategories.push('Programming');
@@ -15,10 +15,11 @@ getJokeBtn.addEventListener('click', () => {
     selectedCategories.push('Christmas');
   }
 
-  // Check if at least one category is selected
+  // kategorian checkaus
   if (selectedCategories.length > 0) {
     const apiUrl = `https://v2.jokeapi.dev/joke/${selectedCategories.join()}?blacklistFlags=nsfw,racist,sexist&type=twopart`;
 
+    //Api kutsu
     fetch(apiUrl)
       .then(response => response.json())
       .then(data => {

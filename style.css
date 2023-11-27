@@ -109,21 +109,19 @@
 }
 
 
-/* Add styles for checkboxes */
 .form-check-input {
-  display: none; /* Hide the default checkbox */
+  display: none;
 }
 
-/* Style for unchecked state */
 .form-check-label {
-  --size: 100px; /* Adjust the size as needed */
+  --size: 100px;
   --shadow: calc(var(--size) * 0.07) calc(var(--size) * 0.1);
 
   position:relative;
-  display:inline-block; /* Display on the same row */
+  display:inline-block;
   width: var(--size);
   height: var(--size);
-  margin: 0 10px; /* Add margin between checkboxes */
+  margin: 0 10px;
   background-color: #f72414;
   border-radius: 50%;
   box-shadow: 0 var(--shadow) #ffbeb8;
