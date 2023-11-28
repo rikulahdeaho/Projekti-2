@@ -1,9 +1,12 @@
 # Projekti-2
 
-Teimme projektina sovelluksen, joka hakee apilta ohjelmointi ja joulu aiheisia vitsejä. Sovelluksessa voi vapaasti valita kumman aiheisia vitsejä tahtoo hakea. Riku toteutti vitsien haun apilta. Ilmari toteutti vitsikategorian valinnan checkboxeilla ja muokkasi apikutsun toimimaan sen mukaan. Toteutimme yhdessä Bootstrapin tyylitykset ja css tyylitykset. Lopuksi kävimme projektin läpi ja teimme tarvittavia korjauksia.
+Tämä projekti on verkkosovellus, joka hakee ohjelmointiin ja jouluun liittyviä vitsejä vitsi-API:sta. Käyttäjät voivat valita haluamansa vitjekategorian, ja sovellus näyttää vitsin aloituksen ja loppuratkaisun. Projekti oli yhteistyöprojekti, jossa Riku toteutti vitsien hakemisen API:sta, Ilmari toteutti kategorian valinnan käyttäen valintaruutuja ja molemmat osallistuivat Bootstrapin ja mukautetun CSS:n tyylien luomiseen.
 
 Linkki sovellukseen:
 
 [https://rikulahdeaho.github.io/Projekti-2/](https://rikulahdeaho.github.io/Projekti-2/)
 
 Linkki videoon:
+
+Linkki API-rajapintaan:
+[https://sv443.net/jokeapi/v2/](https://sv443.net/jokeapi/v2/)
