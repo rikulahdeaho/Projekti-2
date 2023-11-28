@@ -4,6 +4,6 @@ Teimme projektina sovelluksen, joka hakee apilta ohjelmointi ja joulu aiheisia v
 
 Linkki sovellukseen:
 
-[https://rikulahdeaho.github.io/Projekti-2/](https://rikulahdeaho.github.io/Projekti-2/)https://rikulahdeaho.github.io/Projekti-2/
+[https://rikulahdeaho.github.io/Projekti-2/](https://rikulahdeaho.github.io/Projekti-2/)
 
 Linkki videoon:
